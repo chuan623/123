@@ -8,19 +8,21 @@
             font-family: "Microsoft JhengHei", Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f8f8f8;
+            /* 暖色調漸層背景 */
+            background: linear-gradient(135deg, #ffd8b2 0%, #ffb385 40%, #ff858a 100%);
+            min-height: 100vh;
         }
         .container {
             max-width: 1200px;
             margin: 40px auto;
-            background: #fff;
+            background: rgba(255, 255, 255, 0.95);
             border-radius: 10px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.09);
             padding: 30px;
         }
         h1 {
             text-align: center;
-            color: #2867B2;
+            color: #ff7f50;
             margin-bottom: 30px;
             font-size: 2.4rem;
             letter-spacing: 2px;
